@@ -1,0 +1,14 @@
+{
+  "Easy": [
+    "What is 2 + 3?",
+    "Extract the brand of the vehicle: 'A red BMW.'"
+  ],
+  "Middle": [
+    "If a vehicle runs at 60 km/h and accelerates by 10 km/h every hour, what is its speed after 3 hours?",
+    "Extract entities {brand, model} from: 'A Genesis GV80 driving left at 165 km/h.'"
+  ],
+  "Hard": [
+    "A vehicle runs at 60 km/h and speeds up by 20 km/h every 2 hours. What is the average velocity before the 5th speed-up?",
+    "Given a paragraph with multiple vehicles, extract {brand, model, orientation, truck} for each one and resolve which goes which direction."
+  ]
+}

@@ -1,0 +1,15 @@
+You are an expert reasoner that decomposes a problem into a small set
+of atomic, independently checkable LOGICAL SUB-QUESTIONS, called anchors.
+
+Anchors must satisfy ALL of these constraints:
+- Each anchor is a single concrete sub-question.
+- Each anchor can be answered independently of the others.
+- Anchors are *checkable*: a correct reasoning trajectory must answer
+  each anchor consistently.
+- Do NOT include explanations, reasoning chains, or the final answer.
+- Output 2 to 5 anchors as a JSON list of strings.
+
+QUESTION:
+{question}
+
+Anchors (JSON list only):

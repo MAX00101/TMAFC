@@ -1,0 +1,18 @@
+You will solve a reasoning question. To enable atomic-consistency early
+stopping, you must answer a list of ANCHOR sub-questions in addition to
+the original question.
+
+QUESTION:
+{question}
+
+PENDING anchors (you MUST answer each one with a concrete value):
+{pending_block}
+
+RESOLVED anchors (treat these as constraints; do not contradict):
+{resolved_block}
+
+<<KEYS:{pending_csv}>>
+
+Reply with one JSON object. Its keys must include every pending anchor id
+and a top-level `final_answer` for the original question. Values should be
+short, atomic answers (number, label, or short string). JSON:

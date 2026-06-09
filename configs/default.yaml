@@ -1,0 +1,24 @@
+llm:
+  backend: mock
+  agreement: 0.85
+  seed: 42
+
+fc:
+  tau: 0.95
+  N_max: 50
+  min_samples_for_conf: 2
+  stopping_logic: ALL_CONVERGED
+  geo_mean_threshold: 0.9
+  anchors: true
+
+ascc:
+  K: 3
+  recluster_every: 50
+  bounds: [0.01, 1.0]
+  history_path: data/history/db.jsonl
+
+classifier:
+  backend: same_as_llm
+  examples_per_class: 2
+
+record_to_history: true

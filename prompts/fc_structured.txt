@@ -1,0 +1,20 @@
+You are an information-extraction expert.
+
+A schema defines the set of variables to extract. Some variables are
+already converged (do NOT change them). For the PENDING variables only,
+re-extract them from the QUESTION below and reply with one JSON object
+that contains EXACTLY the pending keys and nothing else.
+
+Pending  : {pending_keys}
+Resolved : {resolved_json}
+
+Schema description:
+{schema_description}
+
+<<KEYS:{pending_csv}>>
+
+QUESTION:
+{question}
+
+Reply with a single JSON object whose keys are exactly the pending ones.
+JSON:

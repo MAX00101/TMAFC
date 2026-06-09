@@ -1,0 +1,3 @@
+{"id": "math_001", "question": "A vehicle runs at 60 km/h and speeds up by 20 km/h every 2 hours. What is the average velocity before the 5th speed-up?", "ground_truth": "100"}
+{"id": "math_002", "question": "If 7 apples cost $4.20, how much do 12 apples cost?", "ground_truth": "7.20"}
+{"id": "math_003", "question": "A train leaves Boston at 9 AM going 60 mph. Another train leaves NY at 10 AM going 80 mph toward Boston. They are 220 miles apart. At what time do they meet?", "ground_truth": "11:08 AM"}

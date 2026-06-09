@@ -1,0 +1,12 @@
+numpy>=1.23
+scipy>=1.10
+pyyaml>=6.0
+tqdm>=4.65
+python-dotenv>=1.0
+
+# optional backends:
+# openai>=1.0
+# vllm>=0.4
+# transformers>=4.40
+# xgboost>=1.7
+# scikit-learn>=1.3
